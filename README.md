@@ -8,7 +8,7 @@ https://extensions.gnome.org/extension/2114/order-gnome-shell-extensions/
 
 ## How to
 
-you need to add a file in `~/.local/share/indicators/applications/ordering-override.keyfile` (you can also use `/usr/share/indicators/applications/ordering-override.keyfile` for systemwide installation where you define the order of your icons using their name. 
+you need to add a file in `~/.local/share/indicators/application/ordering-override.keyfile` (you can also use `/usr/share/indicators/application/ordering-override.keyfile` for systemwide installation where you define the order of your icons using their name. 
 
 The name of the icons you can find by running `journalctl /usr/bin/gnome-shell -f -n 40` in a terminal and afterwards you enable the extension. You should see something like
 ```
